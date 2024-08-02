@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "antidtap",
+    "version": "${version}",
+    "name": "AntiDTap",
+    "description": "A mod to defeat the fucking crystal children",
+    "authors": [
+        "saikonohack"
+    ],
+    "license": "All-Rights-Reserved",
+    "icon": "assets/antidtap/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            "com.saikonohack.antidtap.client.AntiDTapClient"
+        ],
+        "modmenu": [
+            "com.saikonohack.antidtap.client.ModMenuIntegration"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+        "minecraft": ">=1.20 <=1.20.6",
+        "modmenu": "*"
+    }
+}

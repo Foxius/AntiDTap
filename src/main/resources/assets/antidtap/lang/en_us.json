@@ -1,0 +1,5 @@
+{
+    "title.antidtap.config": "AntiDTap Configuration",
+    "category.antidtap.general": "General Settings",
+    "option.antidtap.enableDisconnection": "Enable Disconnection"
+}
